@@ -1,3 +1,37 @@
 /* .showcase{
     background-image: url(asstets);
 } */
+h2{
+    text-align: center;
+
+}
+.section1{
+    /* background: url(assets/backgrounds/h_img.jpg) no-repeat; */
+    background-image: url('./assets/backgrounds/h_img.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top:17%; 
+}
+.section3{
+    background: url(assets/backgrounds/s_image.jpg) no-repeat;
+}
+.serviceicons{
+    text-align: left;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+/* .column {
+    float: left;
+    width: 25.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  /* .row::after {
+      display: flex;
+    content: "";
+    clear: both;
+    display: table;
+  } */ */
