@@ -1,6 +1,9 @@
-/* .showcase{
-    background-image: url(asstets);
-} */
+body{
+    /* background-color: dimgrey; */
+}
+.container{
+    /* background-color: ivory; */
+}
 h2{
     text-align: center;
 
@@ -15,9 +18,18 @@ h2{
 }
 .section3{
     background-image: url('../assets/backgrounds/s_image.jpg');
+    height: 300px;
+    color: white;
 }
-.serviceicons{
+.section5{
+    text-align: center;
+
+.section6{
     background-image: url('../assets/backgrounds/c_image.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
 }
 
 
@@ -38,7 +50,7 @@ h2{
   #mouse-click {
     animation: bounce 2s infinite;
   }
-  #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+  /* #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
     display: none;
     color: black;
     width: 100%;
@@ -55,4 +67,4 @@ h2{
   }
   
 
-  
+   */
