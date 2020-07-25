@@ -20,15 +20,39 @@ h2{
     background-image: url('../assets/backgrounds/c_image.jpg');
 }
 
-footer{
-    height: 150px;
-    margin-top: 20px;
-    width: 100%;
+
+  footer{
     text-align: center;
-    padding: 10px;
-    position: relative;
+    padding-top: 30px;
+    font-family: 'Delius Swash Caps', cursive;
   }
-  footer h1{
-    font-size: medium;
+  footer p{
+    margin-top: 10px;
   }
+  #mouse-click{
+    padding-top : 22px;
+    margin-top: 10%;
+    padding-bottom: 30px; 
+    /* animation-iteration-count: infinite; */
+  }
+  #mouse-click {
+    animation: bounce 2s infinite;
+  }
+  #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+    display: none;
+    color: black;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(255, 255, 255, 0.456);
+    position:absolute;
+    top: 20px;
+    left: 35px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50%;
+    font-family: 'Delius Swash Caps', cursive;
+  }
+  
+
   
