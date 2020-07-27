@@ -27,6 +27,7 @@ $('#image1').on("click",function(e){
 $('#image2').on("click",function(e){
   $('.span2').toggle('slow');
   $('.images2').toggle("click");
+  
 });$('#image').on("click",function(e){
   $('.span').toggle('slow');
   $('.imagE').toggle("click");
