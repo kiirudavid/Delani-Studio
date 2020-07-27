@@ -184,3 +184,13 @@ footer {
 .image1:hover .overlay {
     opacity: 0.5;
 }
+
+.span{
+    display: none;
+}
+.span1{
+    display: none;
+}
+.span2{
+    display: none;
+}
