@@ -1,13 +1,15 @@
 h2 {
     text-align: center;
 }
-p{
+
+p {
     text-align: center;
 }
 
-#name{
+#name {
     margin-right: 30px;
 }
+
 .section1 {
     background-image: url('../assets/backgrounds/h_img.jpg');
     background-position: center center;
@@ -25,7 +27,6 @@ p{
     height: 300px;
     color: white;
     text-align: center;
-
 }
 
 .section6 {
@@ -167,26 +168,19 @@ footer {
     opacity: 0.5;
 }
 
-#mouse-click{
+#mouse-click {
     padding-bottom: 7px;
 }
 
-/* .span{
-    display: none;
-}
-.span1{
-    display: none;
-}
-.span2{
-    display: none;
-} */
 
 .show1 {
     display: none;
 }
+
 .show2 {
     display: none;
 }
+
 .show3 {
     display: none;
 }
