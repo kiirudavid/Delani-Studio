@@ -9,6 +9,12 @@ p {
 #name {
     margin-right: 30px;
 }
+#mouse-click {
+    animation: bounce 2s infinite;
+    padding-top : 15px;
+    margin-top: 10%;
+    padding-bottom: 25px;
+  }
 
 .section1 {
     background-image: url('../assets/backgrounds/h_img.jpg');
@@ -36,13 +42,29 @@ p {
     background-repeat: no-repeat;
     color: white;
 }
+.section6 h1{
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+input[type=text], input[type=email], #text1{
+    background: transparent;
+    color: whitesmoke;
+    font-size: 20px;
+    }
+    #text1{
+        margin-left: 20%;
+        width: 60%;
+    } 
+
+   
 
 footer {
     text-align: center;
-    float: left;
-    margin-top: 5px;
-    margin-left: 200px;
-    margin-top: 4%;
+    padding-top: 30px;
+    padding-left: 15%;
+    margin-left: 40px;
 }
 
 .image {
@@ -184,3 +206,6 @@ footer {
 .show3 {
     display: none;
 }
+
+.form-control::-webkit-input-placeholder { 
+    color: whitesmoke;
