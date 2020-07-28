@@ -5,6 +5,9 @@ p{
     text-align: center;
 }
 
+#name{
+    margin-right: 30px;
+}
 .section1 {
     background-image: url('../assets/backgrounds/h_img.jpg');
     background-position: center center;
@@ -168,12 +171,22 @@ footer {
     padding-bottom: 7px;
 }
 
-.span{
+/* .span{
     display: none;
 }
 .span1{
     display: none;
 }
 .span2{
+    display: none;
+} */
+
+.show1 {
+    display: none;
+}
+.show2 {
+    display: none;
+}
+.show3 {
     display: none;
 }
